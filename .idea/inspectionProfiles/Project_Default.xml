@@ -12,9 +12,9 @@
             <item index="4" class="java.lang.String" itemvalue="embed" />
             <item index="5" class="java.lang.String" itemvalue="script" />
             <item index="6" class="java.lang.String" itemvalue="h2" />
-            <item index="7" class="java.lang.String" itemvalue="sectio" />
-            <item index="8" class="java.lang.String" itemvalue="p" />
-            <item index="9" class="java.lang.String" itemvalue="arc" />
+            <item index="7" class="java.lang.String" itemvalue="p" />
+            <item index="8" class="java.lang.String" itemvalue="arc" />
+            <item index="9" class="java.lang.String" itemvalue="sectio" />
           </list>
         </value>
       </option>
