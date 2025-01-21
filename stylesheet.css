@@ -2,6 +2,8 @@ body {
     font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 .highlight {
@@ -74,4 +76,61 @@ button:hover {
 
 .s-part-buttons button {
     margin: 0 10px;
+}
+
+.explore-courses {
+    background-color: black;
+    color: white;
+}
+
+.join-bootcamps {
+    background-color: orange;
+    color: white
+}
+
+.trusted-by {
+    text-align: center;
+    padding: 20px;
+    background-color: white
+}
+
+.trusted-by .sponsors {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.trusted-by img {
+    max-height: 100%;
+    opacity: 0.7;
+}
+
+.trusted-by img:hover {
+    opacity: 1;
+}
+
+.courses {
+    padding: 50px 20px;
+    background-color: white
+}
+
+.courses-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.course {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: white
+}
+
+.course img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px
 }
