@@ -1,0 +1,77 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.highlight {
+    color: orange
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.header-menu {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.nav-sign .sign-in {
+    background: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.nav-sign .sign-up {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.second-part {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.second-part h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.second-part p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: gray
+}
+
+.s-part-buttons button {
+    margin: 0 10px;
+}
