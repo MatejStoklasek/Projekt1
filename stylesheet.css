@@ -56,7 +56,7 @@ button:hover {
 .nav-sign {
     justify-content: right;
     display: flex;
-    gap: 10px;box-sizing:
+    gap: 10px;
 }
 
 .nav-sign .sign-in {
