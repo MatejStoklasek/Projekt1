@@ -69,3 +69,10 @@ header {
 
     }
 }
+
+main {
+    sectio.second-part {
+        justify-content: center;
+        align-items: center;
+    }
+}
