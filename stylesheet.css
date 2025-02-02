@@ -1,17 +1,26 @@
 body {
+    font-family: poppins, sans-serif;
+
     header {
         nav {
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            margin-left: 50px;
 
             ul {
                 align-items: center;
-                display: inline-flex;
+                display: flex;
                 list-style: none;
+                text-align: center;
 
 
                 li {
                     margin-right: 15px;
+                    align-items: center;
+                    display: flex;
+                    list-style: none;
 
                     a {
                         color: black;
@@ -20,15 +29,15 @@ body {
                         .more::after {
                             content: "ⴸ";
                             margin: auto 3px;
-                            font-size: 10px;
+                            font-size: 20px;
                         }
 
                         .sale {
                             color: white;
-                            background: orange;
+                            background: #FF5F1F;
                             width: 20px;
                             height: 10px;
-                            font-size: 10px;
+                            font-size: 20px;
                             margin-left: 5px;
                             border-radius: 10px;
                             padding: 3px 5px;
@@ -39,9 +48,7 @@ body {
             }
 
             div.nav-sign {
-                li {
-                    margin-right: 0;
-                }
+                margin-right: 50px;
 
                 .sign-in {
                     background: white;
@@ -58,16 +65,18 @@ body {
                 }
 
                 button {
-                    border-radius: 25px;
-                    width: 80px;
-                    height: 30px;
+                    border-radius: 100px;
+                    width: 100px;
+                    height: 45px;
+                    font-size: 20px;
+
 
                 }
             }
 
             div.logo {
-                margin-left: 15px;
-                font-size: 20px;
+                font-size: 40px;
+                font-weight: bold;
 
             }
 
@@ -86,17 +95,18 @@ body {
                 border-radius: 15px;
                 padding: 5px 10px;
                 margin-top: 50px;
-                margin-bottom: -60px;
+                margin-bottom: 20px;
 
             }
 
             h1 {
-                font-size: 36px;
+                font-size: 4.2rem;
                 font-weight: bold;
                 margin-bottom: 0;
+                margin-top: 0;
 
-                .digit-skill {
-                    color: orange;
+                span {
+                    color: #FF5F1F;
                     display: block
                 }
             }
@@ -115,6 +125,7 @@ body {
                 color: white;
                 border: 1px black solid;
                 cursor: pointer;
+                margin-top: 30px;
             }
 
             .join-bootcamps {
@@ -131,6 +142,7 @@ body {
         section.trusted-by {
             text-align: center;
             margin-top: 80px;
+            margin-bottom: 80px;
 
             h2 {
                 font-weight: bold;
@@ -140,14 +152,20 @@ body {
             div {
                 display: flex;
                 justify-content: center;
-                gap: 30px;
+                gap: 100px;
                 max-width: 1200px;
                 margin: auto;
+                align-items: center;
 
                 img {
                     width: 100%;
                     opacity: 0.75;
-                    height: 50px
+                    height: 50px;
+                }
+
+                .fedex {
+                    width: 200px;
+                    height: 150px;
                 }
             }
 
@@ -155,140 +173,174 @@ body {
         }
 
         section.courses {
-            background: lightgray;
+            background: #E5E4E2;
             margin: 0;
-            padding: 0;
             text-align: center;
+            padding-bottom: 50px;
 
             div.courses-2 {
                 display: flex;
                 justify-content: center;
-                flex-wrap: wrap;
-                gap: 20px;
-                padding: 20px;
+                gap: 40px;
+                padding: 0 256px;
                 margin: 50px auto;
-                max-width: 1200px;
+                max-width: 1800px;
+                max-height: 1000px;
 
                 .course {
                     background: white;
                     border-radius: 15px;
-                    width: 250px;
+                    width: 500px;
+                    height: auto;
                     padding: 15px;
                     text-align: left;
+                    margin-bottom: 100px;
 
                     .img-course {
-
-                        img {
-                            width: 100%;
-                            border-radius: 10px;
-                        }
+                        position: relative;
+                        overflow: hidden;
                     }
 
-
-                    .views {
-                        font-size: 14px;
-                        color: gray;
-                        margin-top: 5px
-                    }
-
-                    h3 {
-                        font-size: 18px;
-                        margin: 10px 0
-                    }
-
-                    .level {
-                        font-size: 14px;
-                        color: gray
-                    }
-
-                    .rating {
-                        font-size: 16px;
-                        color: gray;
-                        margin-top: 5px;
-                        display: inline-flex;
-                        align-items: center;
-                    }
-
-                    button {
+                    img {
+                        width: 100%;
+                        height: 300px;
+                        border-radius: 10px;
                         display: block;
-                        width: 125px;
-                        padding: 10px;
-                        font-size: 14px;
-                        border: gray solid 1px;
-                        border-radius: 25px;
-                        background-color: white;
-                        color: black;
-                        cursor: pointer;
-                        margin-top: 10px;
-                        align-items: center;
                     }
+                }
 
-                    button:hover {
-                        border: none;
-                        background-color: black;
-                        color: white
-                    }
+
+                .views {
+                    font-size: 14px;
+                    color: #71797E;
+                    margin-top: 5px;
+                    position: absolute;
+                    bottom: 8px;
+                    right: 8px;
+                    padding: 4px 8px;
+                    border-radius: 3px;
+                }
+
+                h3 {
+                    font-size: 28px;
+                    margin: 10px 0
+                }
+
+                p {
+                    font-size: 32px
+                }
+
+                .level {
+                    font-size: 14px;
+                    color: #71797E
+                }
+
+                .rating {
+                    font-size: 16px;
+                    color: #71797E;
+                    margin-top: 5px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                button {
+                    display: block;
+                    width: 125px;
+                    padding: 10px;
+                    font-size: 14px;
+                    border: gray solid 1px;
+                    border-radius: 25px;
+                    background-color: white;
+                    color: black;
+                    cursor: pointer;
+                    align-items: center;
+                    margin-left: 30px;
+                    justify-content: right;
+                }
+
+                button:hover {
+                    border: none;
+                    background-color: black;
+                    color: white
                 }
             }
 
-            p.most-popular {
+            .course:hover {
+                box-shadow: lightgray 10px 10px 10px;
+            }
+        }
+
+        p.most-popular {
+            display: inline-block;
+            background: white;
+            padding: 4px 12px;
+            border-radius: 160px;
+            color: #737373;
+            margin-top: 150px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 72px;
+            font-weight: bold;
+            margin-top: 0;
+
+            span {
+                color: #FF5F1F
+            }
+        }
+
+
+    }
+
+    section.about {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        padding: 50px 20px;
+        gap: 40px;
+        margin-top: 80px;
+        margin-left: 80px;
+
+        div.text-content {
+            flex: 1;
+            max-width: 700px;
+
+            span.advantage {
+                background: lightgray;
+                padding: 10px 20px;
+                border-radius: 25px;
+                font-size: 20px;
                 display: inline-block;
-                background: white;
-                font-size: 12px;
-                padding: 5px 10px;
-                border-radius: 15px;
                 margin-bottom: 10px;
             }
 
             h2 {
-                font-size: 32px;
-                font-weight: bold;
+                font-size: 72px;
+                font-weight: bold
+            }
 
-                span {
-                    color: orange
-                }
+            p {
+                font-size: 20px
+            }
+
+            h3 {
+                font-size: 32px
             }
 
 
-        }
-
-        section.about {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 1200px;
-            margin: auto;
-            padding: 50px 20px;
-            gap: 40px;
-
-            div.text-content {
-                flex: 1;
-                max-width: 500px;
-
-                span.advantage {
-                    background: lightgray;
-                    padding: 5px 10px;
-                    border-radius: 25px;
-                    font-size: 12px;
-                    display: inline-block;
-                    margin-bottom: 10px;
-                }
-
-                h2 {
-                    font-size: 36px;
-                    font-weight: bold
-                }
-
-                .about-edukin {
-                    color: orange
-                }
+            .about-edukin {
+                color: #FF5F1F
             }
-
         }
+
     }
-
-
 }
+
+
+
 
 
 
