@@ -153,14 +153,16 @@ body {
                 display: flex;
                 justify-content: center;
                 gap: 100px;
-                max-width: 1200px;
+                max-width: 1600px;
                 margin: auto;
                 align-items: center;
+                padding: 40px;
 
                 img {
                     width: 100%;
-                    opacity: 0.75;
+                    opacity: 0.5;
                     height: 50px;
+                    filter: grayscale(100%);
                 }
 
                 .fedex {
@@ -178,7 +180,7 @@ body {
             text-align: center;
             padding-bottom: 50px;
 
-            div.courses-2 {
+            div.courses-placement {
                 display: flex;
                 justify-content: center;
                 gap: 40px;
